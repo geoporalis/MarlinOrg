@@ -342,7 +342,7 @@ Here are some standard links for getting your machine calibrated:
   #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-DELTA_EFFECTOR_OFFSET-DELTA_CARRIAGE_OFFSET)
 
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
-  #define DELTA_PRINTABLE_RADIUS 70 //org 140
+  #define DELTA_PRINTABLE_RADIUS 140 //org 140
 
 #endif
 
@@ -766,7 +766,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 #define PLA_PREHEAT_HPB_TEMP 70
 #define PLA_PREHEAT_FAN_SPEED 255   // Insert Value between 0 and 255
 
-#define ABS_PREHEAT_HOTEND_TEMP 240
+#define ABS_PREHEAT_HOTEND_TEMP 220
 #define ABS_PREHEAT_HPB_TEMP 100
 #define ABS_PREHEAT_FAN_SPEED 255   // Insert Value between 0 and 255
 
@@ -849,7 +849,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 // See http://minow.blogspot.com/index.html#4918805519571907051
 // If needed, adjust the X, Y, Z calibration coordinates
 // in ultralcd.cpp@lcd_delta_calibrate_menu()
-//#define DELTA_CALIBRATION_MENU
+#define DELTA_CALIBRATION_MENU
 
 // The MakerLab Mini Panel with graphic controller and SD support
 // http://reprap.org/wiki/Mini_panel
