@@ -110,6 +110,7 @@ applet/
 *.i*86
 *.x86_64
 *.hex
+!Marlin*.hex
 
 # Debug files
 *.dSYM/
