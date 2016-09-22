@@ -41,14 +41,14 @@
    * Verbose version identifier which should contain a reference to the location
    * from where the binary was downloaded or the source code was compiled.
    */
-  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION __DATE__ " " __TIME__
+  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION "( myConfig )"
 
   /**
    * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2016-07-31 12:00"
+  #define STRING_DISTRIBUTION_DATE __DATE__ " " __TIME__
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
