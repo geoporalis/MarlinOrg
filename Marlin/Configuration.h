@@ -755,7 +755,7 @@
 // For DELTA this is the top-center of the Cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 415 // Distance between the nozzle to printbed after homing
+#define MANUAL_Z_HOME_POS 416 // Distance between the nozzle to printbed after homing
 
 // Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.
 //
@@ -774,7 +774,7 @@
 
 // Homing speeds (mm/m)
 #define HOMING_FEEDRATE_XY (50*60)
-#define HOMING_FEEDRATE_Z  (4*60)
+#define HOMING_FEEDRATE_Z  (50*60)
 
 //
 // MOVEMENT SETTINGS
@@ -784,7 +784,7 @@
 // default settings
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,80,109.9}  // default steps per unit for Ultimaker
-#define DEFAULT_MAX_FEEDRATE          {300, 300, 300, 300}    // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {500, 500, 500, 500}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,9000,9000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
@@ -849,8 +849,8 @@
 #define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_FAN_SPEED   200 // Value from 0 to 255
 
-#define PREHEAT_2_TEMP_HOTEND 220
-#define PREHEAT_2_TEMP_BED    100
+#define PREHEAT_2_TEMP_HOTEND 210
+#define PREHEAT_2_TEMP_BED     80
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
 //
