@@ -405,7 +405,7 @@
   // NOTE NB all values for DELTA_* values MUST be floating point, so always have a decimal point in them
 
   // Center-to-center distance of the holes in the diagonal push rods.
-  #define DELTA_DIAGONAL_ROD 255.0 //244.498//100/102.25*250.0 // 250mm
+  #define DELTA_DIAGONAL_ROD 252.0 //244.498//100/102.25*250.0 // 250mm
 
   // Horizontal offset from middle of printer to smooth rod center.
   #define DELTA_SMOOTH_ROD_OFFSET 175.0 // mm
